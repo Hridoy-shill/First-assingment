@@ -29,10 +29,7 @@ nav li a{
     padding: 2px 2px;
     
 }
-nav a:hover{
-    background-color: #e7570a;
-    color: black;
-}
+
 /* section-1 start */
 .section1{
     background-image: url(images/banner/banner2.png);
