@@ -2,6 +2,22 @@
     margin: 0;
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    border: 1px solid red;
+   
+}
+/* nav section start */
+.nav-manu{
+    height: 200px;
+}
+nav ul li{
+    list-style-type: none;
+    float: left;
+    padding-left: 15px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #e7570a;
 }
 /* section-1 start */
 .section1{
@@ -35,13 +51,12 @@
     padding: 5px;
     border-radius: 10px;
     border: 1px solid rgb(0, 0, 0);
-    background-color: rgb(231, 87, 10);
+    background-color: #e7570a;
     color: rgb(0, 0, 0); 
 }
 /* section-2 start */
 .section2{
-    margin-top: 150px;
-    margin-left: 100px;
+    margin: 120px 100px;
     width: 900px;
 }
 .section2-main-div{
@@ -73,20 +88,24 @@
     color: rgb(126, 126, 126);
 }
 
-li{
+.list-data{
     color: rgb(84, 84, 84);
+    list-style: none;
 }
 .list{
-    padding-left: 15px;
+    width: 400px;
 }
 
 /* section3 start */
 
-.section3{
-    margin-top: 120px;
+.section3{ 
+    width: 1100px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 .section3-titel{
-    text-align: center;
+    width: 200px;
+    margin: auto;
     font-size: 35px;
     margin-bottom: 30px;
 }
@@ -95,9 +114,13 @@ li{
 
 .plans{
     display: flex;
-    gap: 90px;
-    margin:0 130px;
+    gap: 10px;
+    width: 800px;
+    height: 200px;
+    margin-left: 20px;
+    
 }
+
 .plan-img{
     height: 75px;
     width: 75px; 
@@ -106,6 +129,7 @@ li{
     margin: auto;
 }
 .plan-title{
+    width: 250px;
     font-size: 25px;
     padding-bottom: 10px;
     font-weight: 1000;
@@ -120,17 +144,23 @@ li{
 }
 /* section4 start */
 .section4{
+    margin-top: 120PX;
+    width: 1100px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.section4-background{
     background-image: url(images/watch.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 250px;
-    width: 900px;
+    height: 200px;
+    width: 800px;
     display: block;
     margin: auto;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 .section4-contant{
-    padding: 60px 50px;
+    margin: 20px 30px;
 }
 .section4-title{
     font-size: 35px;
@@ -145,4 +175,72 @@ li{
     border: none;
     background-color: rgb(231, 87, 10);
     color: rgb(0, 0, 0); 
+}
+/* footer section start */
+footer{
+    margin-top: 120px;
+}
+.footer-contants{
+    display: flex;
+    background-color: black;
+    height: 60vh;
+    padding-left: 80px;
+}
+/* footer contant-1 start */
+.footer-contant-1{
+    color: white;
+    margin: 80px 100px ;
+}
+.contant-1-title{
+    font-size: 35px;
+    font-weight: 1000;
+    padding-bottom: 20px;
+}
+.contant-1-discription{
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.contact-email{
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.contact-phone{
+    font-weight: 600;
+    color: rgb(255, 106, 0);
+    padding-bottom: 20px;
+}
+/* footer contant-1-logo */
+.social-logo{
+    padding-left: 5px;
+}
+/* footer contant-2 start */
+.footer-contant-2{
+    color: white;
+    margin-top: 80px;
+}
+.contant-2-titel{
+    font-size: 20px;
+    font-weight: 1000;
+    padding-bottom: 20px;
+}
+.contant-2-input{
+    font-size: 18px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding-left: 10px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+.subscribe-btn{
+    width: 300;
+    height: 40px;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(231, 87, 10);
+    color: rgb(255, 255, 255)
 }
