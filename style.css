@@ -241,13 +241,17 @@ footer{
 .footer-contant-2{
     color: white;
     margin-top: 80px;
+    border-left: 2px solid #e7570a;
+    height: 200px;
 }
 .contant-2-titel{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 1000;
     padding-bottom: 20px;
+    margin-left: 20px;
 }
 .contant-2-input{
+    margin-left: 20px;
     font-size: 18px;
     border: none;
     width: 250px;
@@ -260,6 +264,7 @@ footer{
     border: 2px solid white;
 }
 .subscribe-btn{
+    margin-left: 20px;
     width: 300;
     height: 40px;
     font-size: 20px;
@@ -267,4 +272,5 @@ footer{
     border-radius: 10px;
     background-color: rgb(231, 87, 10);
     color: rgb(255, 255, 255)
+    
 }
