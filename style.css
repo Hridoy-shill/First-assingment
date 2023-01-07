@@ -26,6 +26,7 @@ nav li a{
     border: 2px solid #e7570a;
     border-radius: 10px;
     transition: 0.4s;
+    padding: 2px 2px;
     
 }
 nav a:hover{
